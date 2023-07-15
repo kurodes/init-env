@@ -12,7 +12,9 @@ source $ZSH/oh-my-zsh.sh
 bindkey '\t\t' autosuggest-accept
 
 # export PAGER="most"
-# export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+export OPENAI_API_KEY=sk-
+export NOTION_API_KEY=secret_RHohrfcic0oxe3GtRrhQa2FYsKN1WM7UttV8cemcCnj
 
 #setting for the new UTF-8 terminal support in MacOS
 LC_CTYPE=en_US.UTF-8
